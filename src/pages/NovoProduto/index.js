@@ -24,8 +24,6 @@ function NovoProduto() {
   const { register, handleSubmit } = useForm();
   const [erro, setErro] = useState('');
   const [carregando, setCarregando] = useState(false);
-  
-  console.log("Test");
 
   async function onSubmit(data) {
     try {
